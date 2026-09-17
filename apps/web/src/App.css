@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 24px 48px;
+  background: #111827;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin-bottom: 0;
+  color: #d1d5db;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  padding: 80px 24px;
+}
+
+.welcome-card {
+  max-width: 700px;
+  padding: 48px;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+}
+
+.welcome-card h2 {
+  font-size: 30px;
+}
+
+.welcome-card p {
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
